@@ -1,0 +1,44 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/* staples */
+a {color:#004d99;text-decoration:none;}
+a:hover {text-decoration:underline;}
+.right {float:right;}
+
+/* layout */
+body {background:url(img/bg-body.png) repeat;color:#51719c;font:normal 13px/1.5 "Lucida Grande", Helvetica, Verdana, sans-serif;}
+body p {margin:0 0 15px;}
+#shadow {background:url(img/bg-shadow.png) repeat-x top left;width:100%;}
+#width {background:url(img/bg-width.png) no-repeat top center;min-width:1288px;}
+#page {width:960px;margin-left:66px;}
+#sidebar {width:300px;float:left;}
+#content {background:url(img/bg-content.png) repeat-y;width:652px;float:right;}
+#logo {margin:10px 0 0 40px;}
+#logo a {width:260px;height:240px;display:block;outline:none;text-indent:-9999em;}
+
+/* posts */
+#posts {margin:25px 75px 10px 40px;color:#363d47;}
+#posts h3 {font:normal 50px/.9em Georgia,serif;letter-spacing:-2px;margin:0 0 20px;}
+#posts img {padding:7px;background:#e0e7eb;border:1px solid #d4dade;}
+#posts h4 {font:normal 24px/.9em Georgia,serif;margin:0 0 20px;color:#959595;}
+#posts ul {margin:0 0 15px;}
+#posts ul li {background:url(img/icon-bullet.png) no-repeat 0 5px;padding:0 0 0 12px;margin:0 0 8px;}
+#posts .meta {font:italic 1em Georgia,serif;margin:0 0 15px;}
+#posts .meta .comment-link {background:url(img/icon-comment.png) no-repeat right 2px;padding: 0 18px 0 0;}
+#posts .meta .comment-link a {color:#549d18;}
+#posts .post-footer {background:url(img/bg-mid-double-line.png) repeat-x center left;}
+#posts .post-footer span {background:red;}
+
+
+/* bullshit */
+#width {height:900px;}
+#page {overflow:hidden;border:1px dotted yellow;}
+#content {height:900px;border:1px solid pink;}
