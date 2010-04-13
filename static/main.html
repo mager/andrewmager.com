@@ -15,6 +15,33 @@
 
 	<div id="sidebar">
 		<div id="logo"><a href="http://andrewmager.com">Andrew Mager</a></div>
+
+		<div class="widget widget-search">
+			<fieldset>
+			<form>
+				<input type="text" id="s" class="widget-search-input" />
+				<button type="submit" id="widget-search-submit">Search</button>
+			</form>
+			</fieldset>			
+		</div>
+
+		<div class="widget">
+			<h6><a>Article Archive</a></h6>
+			<ul>
+				<li><a>10 - April</a></li>
+				<li><a>10 - March</a></li>
+				<li><a>10 - February</a></li>
+				<li><a>10 - January</a></li>
+				<li><a>09 - December</a></li>
+				<li><a>09 - November</a></li>
+				<li><a>09 - October</a></li>
+				<li><a>09 - September</a></li>
+				<li><a>09 - August</a></li>
+				<li><a>09 - July</a></li>
+				<li><a>09 - June</a></li>
+			</ul>
+		</div>
+
 	</div>
 	<div id="content">
 		<div id="navigation"></div>
@@ -49,7 +76,7 @@
 				</ul>
 				<div class="meta post-footer">
 					<span class="double-gray">
-						<span class="category-blurb">Filed in Blogging, Journalism</span> | <span class="comment-link"><a>3 Comments</a></span>
+						<span class="category-blurb">Filed in <a>Blogging</a>, <a>Journalism</a></span> | <span class="comment-link"><a>3 Comments</a></span>
 					</span>
 				</div><!-- /post-footer -->
 
@@ -85,18 +112,19 @@
 				</div><!-- /post-comments -->
 				<div id="comment-form">
 					<fieldset>
+					<form>
 						<ol>
 							<li>
 								<label for="name">Name</label>
-								<input type="text" id="name" />
+								<input type="text" id="name" class="i-text" />
 							</li>
 							<li>
 								<label for="email">Email</label>
-								<input type="text" id="email" />
+								<input type="text" id="email" class="i-text" />
 							</li>
 							<li>
 								<label for="twitter">Twitter</label>
-								<input type="text" id="twitter" />
+								<input type="text" id="twitter" class="i-text" />
 							</li>
 							<li>
 								<label for="comment-box">What's up?</label>
@@ -106,6 +134,7 @@
 								<button type="submit" id="submit-button">Tell me what you think</button>
 							</li>
 						</ol>
+					</form>
 					</fieldset>
 				</div>
 			</div><!-- /post -->
