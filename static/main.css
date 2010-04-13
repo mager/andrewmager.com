@@ -12,6 +12,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 a {color:#004d99;text-decoration:none;}
 a:hover {text-decoration:underline;}
 .right {float:right;}
+.bg-white {background:#fff;}
 
 /* layout */
 body {background:url(img/bg-body.png) repeat;color:#51719c;font:normal 13px/1.5 "Lucida Grande", Helvetica, Verdana, sans-serif;}
@@ -30,15 +31,40 @@ body p {margin:0 0 15px;}
 #posts img {padding:7px;background:#e0e7eb;border:1px solid #d4dade;}
 #posts h4 {font:normal 24px/.9em Georgia,serif;margin:0 0 20px;color:#959595;}
 #posts ul {margin:0 0 15px;}
-#posts ul li {background:url(img/icon-bullet.png) no-repeat 0 5px;padding:0 0 0 12px;margin:0 0 8px;}
-#posts .meta {font:italic 1em Georgia,serif;margin:0 0 15px;}
+#posts ul li {background:url(img/icon-bullet.png) no-repeat 0 5px;padding:0 0 0 16px;margin:0 0 8px;}
+#posts .meta {font:italic .9em Georgia,serif;margin:0 0 15px;color:#959595;}
 #posts .meta .comment-link {background:url(img/icon-comment.png) no-repeat right 2px;padding: 0 18px 0 0;}
 #posts .meta .comment-link a {color:#549d18;}
 #posts .post-footer {background:url(img/bg-mid-double-line.png) repeat-x center left;}
-#posts .post-footer span {background:red;}
+#posts .post-footer .double-gray {background:#fff;padding-right:10px;}
+
+/* comments */
+.comment-author {width:80px;float:left;margin-right:10px;font-size:.85em;}
+.comment-author-avatar {display:block;margin: 0 0 5px;}
+.comment-container {float:left;width:445px;position:relative;}
+.comment-content {background:#f3f6f7;border:1px solid #e4e9ec;margin:0 0 0 14px;padding:15px;}
+.comment-content-notch {width:15px;height:18px;position:absolute;top:18px;left:0;background:url(img/bg-comment.png) no-repeat;}
+.comment-content h5 {font:italic 1.4em Georgia,serif;color:#959595;margin:0 0 10px;}
+.post-comments {padding:10px 0;}
+.post-comments .comment {margin:0 0 15px;}
+
+/* social */
+#content {position:relative;}
+#social {position:absolute;top:65px;right:12px;}
+#social li {width:32px;height:33px;margin:0 0 6px;background-repeat:no-repeat;text-indent:-9999em;}
+#social li a {width:32px;height:33px;display:block;}
+#social .s-twitter {background-image:url(img/bg-social-twitter.png);}
+#social .s-facebook {background-image:url(img/bg-social-facebook.png);}
+#social .s-linkedin {background-image:url(img/bg-social-linkedin.png);}
+#social .s-flickr {background-image:url(img/bg-social-flickr.png);}
+#social .s-vimeo {background-image:url(img/bg-social-vimeo.png);}
+#social .s-rss {background-image:url(img/bg-social-rss.png);}
+
+/* comments */
+
 
 
 /* bullshit */
-#width {height:900px;}
-#page {overflow:hidden;border:1px dotted yellow;}
-#content {height:900px;border:1px solid pink;}
+#width {height:2000px;}
+#page, .post-comments, .comment {overflow:hidden;}
+#content {height:2000px;}
